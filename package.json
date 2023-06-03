@@ -1,13 +1,6 @@
 {
   "name": "university-management-auth-service",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/server.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ragib Shariar",
-  "license": "ISC",
+  "packageManager": "yarn@3.6.0",
   "devDependencies": {
     "typescript": "^5.1.3"
   },
