@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 import cors from 'cors'
-import express, { Application } from 'express'
+import express, { Application, NextFunction, Request, Response } from 'express'
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
-import usersRouter from './app/modules/users/users.route'
+import { UserRoutes } from './app/modules/users/user.route'
 
 const app: Application = express()
 // const port = 5000
@@ -14,14 +15,12 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // Application Routes
-app.use('/api/v1/users/', usersRouter)
+app.use('/api/v1/users/', UserRoutes)
 
 // testing server
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   // res.send('Hello World! Working successfully')
-//   // throw new ApiError(400, 'Ore baba Error')
-//   next('Ore baba Error through next function') // error
-// })
+app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+  Promise.reject(new Error('Unhandled Promise Rejection'))
+})
 
 // Global Error Handler
 app.use(globalErrorHandler)
