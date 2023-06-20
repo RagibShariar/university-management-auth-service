@@ -2,7 +2,7 @@
 import cors from 'cors';
 import express, { Application } from 'express';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
-import { UserRoutes } from './app/modules/user/user.route';
+import router from './app/routes';
 
 const app: Application = express();
 // const port = 5000
@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Application Routes
-app.use('/api/v1/users/', UserRoutes);
+app.use('/api/v1', router);
 
 // testing server
 // app.get('/', async (req: Request, res: Response, next: NextFunction) => {
