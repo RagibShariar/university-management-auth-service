@@ -26,3 +26,11 @@ export const academicSemesterTitle: ISemesterTitle[] = [
 ];
 
 export const academicSemesterCode: ISemesterCode[] = ['01', '02', '03'];
+
+export const AcademicSemesterTitleCodeMapper: {
+  [key: string]: string;
+} = {
+  Spring: '01',
+  Summer: '02',
+  Fall: '03',
+};
