@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import cors from 'cors';
-import express, { Application } from 'express';
+import express, { Application, NextFunction, Request, Response } from 'express';
+import httpStatus from 'http-status';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import router from './app/routes';
 
@@ -24,5 +25,20 @@ app.use('/api/v1', router);
 
 // Global Error Handler
 app.use(globalErrorHandler);
+
+// Handle not found route
+app.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(httpStatus.NOT_FOUND).json({
+    success: false,
+    message: 'Not Found',
+    errorMessage: [
+      {
+        path: req.originalUrl,
+        message: 'API not found',
+      },
+    ],
+  });
+  next();
+});
 
 export default app;
