@@ -1,19 +1,19 @@
 /* eslint-disable no-undef */
-import path from 'path'
-import { createLogger, format, transports } from 'winston'
-import DailyRotateFile from 'winston-daily-rotate-file'
-const { combine, timestamp, printf } = format
+import path from 'path';
+import { createLogger, format, transports } from 'winston';
+import DailyRotateFile from 'winston-daily-rotate-file';
+const { combine, timestamp, printf } = format;
 
 // custom log formatting
 const myFormat = printf(({ level, message, timestamp }) => {
   // EXTRACT DATE
-  const date = new Date(timestamp)
-  const hours = date.getHours()
-  const minutes = date.getMinutes()
-  const seconds = date.getSeconds()
+  const date = new Date(timestamp);
+  const hours = date.getHours();
+  const minutes = date.getMinutes();
+  const seconds = date.getSeconds();
 
-  return `${date.toDateString()} ${hours}:${minutes}:${seconds}  ${level}: ${message}`
-})
+  return `${date.toDateString()} ${hours}:${minutes}:${seconds}  ${level}: ${message}`;
+});
 
 const logger = createLogger({
   level: 'info',
@@ -34,7 +34,7 @@ const logger = createLogger({
       maxFiles: '14d',
     }),
   ],
-})
+});
 
 const errorlogger = createLogger({
   level: 'error',
@@ -55,6 +55,6 @@ const errorlogger = createLogger({
       maxFiles: '14d',
     }),
   ],
-})
+});
 
-export { errorlogger, logger }
+export { errorlogger, logger };

@@ -929,6 +929,36 @@
             "date": 1687196458003,
             "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\19-06-2023-23-40-58-success.log",
             "hash": "810118afa497b91a821e9d0c2998eddbfa7ac0d29f098c2d2a6ea7f791573056"
+        },
+        {
+            "date": 1687196528950,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\19-06-2023-23-42-08-success.log",
+            "hash": "6b005ebc57b6f7a2caf61ca9ff00277648a99373b7f52516b39205fcd8604de9"
+        },
+        {
+            "date": 1687196530337,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\19-06-2023-23-42-10-success.log",
+            "hash": "efefbd3246691854e7ad3b908c1f338450434c739a1b925d5a819d8b85069f52"
+        },
+        {
+            "date": 1687205033877,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\20-06-2023-02-03-53-success.log",
+            "hash": "98cd6b865f8af665d8abb9774a196fdbfe96eae70d186150701b4371e2552905"
+        },
+        {
+            "date": 1687205035863,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\20-06-2023-02-03-55-success.log",
+            "hash": "a5b14004d7c047ef6119c4d9957a820b97e875333e69faf00e4c814d90db330a"
+        },
+        {
+            "date": 1687205048587,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\20-06-2023-02-04-08-success.log",
+            "hash": "0f74fa799fa8d1b0bf367d122f8b5512d55f6febf5fd28dbd926249621a8e944"
+        },
+        {
+            "date": 1687205049664,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\20-06-2023-02-04-09-success.log",
+            "hash": "269de07f646ff94e9188f630bdf2aa382b3b7e4c89901d6baeed8d5c62ec4b63"
         }
     ],
     "hashType": "sha256"
