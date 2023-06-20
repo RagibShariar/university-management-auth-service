@@ -16,8 +16,6 @@ app.use(express.urlencoded({ extended: true }));
 
 // Application Routes
 app.use('/api/v1', router);
-// app.use('/api/v1/users/', UserRoutes);
-// app.use('/api/v1/academic-semesters', AcademicSemesterRoutes);
 
 // testing server
 // app.get('/', async (req: Request, res: Response, next: NextFunction) => {
