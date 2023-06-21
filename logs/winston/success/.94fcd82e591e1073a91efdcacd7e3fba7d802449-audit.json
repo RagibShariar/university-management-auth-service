@@ -1294,6 +1294,36 @@
             "date": 1687294345605,
             "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\21-06-2023-02-52-25-success.log",
             "hash": "3d15562f57e9ae65ccbce53d66bb3d0bc526c31260921500ad7620f426aaa3ab"
+        },
+        {
+            "date": 1687294414917,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\21-06-2023-02-53-34-success.log",
+            "hash": "bb809ed97d8db118dcb4e9aad5260498e77501e9999ae68ace0cfb3f2f728b31"
+        },
+        {
+            "date": 1687294416284,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\21-06-2023-02-53-36-success.log",
+            "hash": "4eb29eee5dcaa53264d199c09c64e021e19c0de2ccc3b6645cfe934a6ed1d7f7"
+        },
+        {
+            "date": 1687294945003,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\21-06-2023-03-02-24-success.log",
+            "hash": "4715af666d5fff13b21417a995f0c13619a4c25c8e61b34851bf283ddb5dd6d1"
+        },
+        {
+            "date": 1687294946532,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\21-06-2023-03-02-26-success.log",
+            "hash": "b6c0090a7a5c324e6c12827eed8259a9300b78f6e3a3f630761c040ca56e588a"
+        },
+        {
+            "date": 1687333967771,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\21-06-2023-13-52-47-success.log",
+            "hash": "55a3ae83587d6bcc927270e86d881c3f6d72ac34ed6c1d171b962a4ae04a8656"
+        },
+        {
+            "date": 1687333969787,
+            "name": "C:\\Users\\User\\Desktop\\Next Level Web Dev\\university-management-auth-service\\logs\\winston\\success\\21-06-2023-13-52-49-success.log",
+            "hash": "0ebf3969f8c2d96cc6528eaf1c9fa4a01bcca3cafc9a2efafd64805f34b42a33"
         }
     ],
     "hashType": "sha256"
